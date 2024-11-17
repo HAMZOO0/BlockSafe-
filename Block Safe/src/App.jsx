@@ -12,23 +12,46 @@ function App() {
   const onSubmit = async (e) => {
     e.preventDefault();
 
-    console.log(file);
+    console.log(
+      import.meta.env.VITE_API_KEY,
+      import.meta.env.VITE_PINATA_SECRET
+    );
 
     try {
       const file_Data = new FormData();
       file_Data.append("file", file);
-      const res = await axios({
-        method: "post",
-        url: "https://api.pinata.cloud/pinning/pinFileToIPFS",
-        data: file_Data,
-        headers: {
-          pinataApiKey: import.meta.env.VITE_API_KEY,
-          pinata_secret_api_key: import.meta.VITE_PINATA_SECRET,
-          "Content-Type": "multipart/form-data",
-        },
-      });
-    } catch (error) {}
+      const res = await axios.post(
+        "https://api.pinata.cloud/pinning/pinFileToIPFS",
+        file_Data,
+        {
+          headers: {
+            pinata_api_key: import.meta.env.VITE_API_KEY,
+            pinata_secret_api_key: import.meta.env.VITE_PINATA_SECRET,
+            "Content-Type": "multipart/form-data",
+          },
+        }
+      );
+      const file_url = "https://gateway.pinata.cloud/ipfs/" + res.data.IpfsHash;
+      console.log(file_url);
+    } catch (error) {
+      console.error(
+        "Error uploading file:",
+        error.response?.data || error.message
+      );
+    }
   };
+
+  //     const res = await axios.post(
+  //       "https://api.pinata.cloud/pinning/pinFileToIPFS",
+  //       file_Data,
+  //       {
+  //         headers: {
+  //           pinata_api_key: import.meta.env.VITE_API_KEY,
+  //           pinata_secret_api_key: import.meta.env.VITE_PINATA_SECRET,
+  //           "Content-Type": "multipart/form-data",
+  //         },
+  //       }
+  //     );
 
   return (
     <div className="text-cyan-500 flex items-center justify-center w-full">
