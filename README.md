@@ -1,5 +1,5 @@
 # **BlockSafe: Decentralized Data Framework (DDF)**  
-
+ 
 BlockSafe is a **Decentralized Data Framework** designed to securely store, share, and manage sensitive data using blockchain technology. It serves as a flexible and scalable solution for building decentralized applications (dApps) across various industries, such as healthcare, voting, and certificate verification.  
 
 Our first application built on **BlockSafe** is a **Medical Record System**, ensuring the privacy, security, and accessibility of medical data for patients, hospitals, and insurance providers.
