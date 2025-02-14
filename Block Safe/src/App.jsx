@@ -16,6 +16,7 @@ function App() {
       .getCurrentUser()
       .then((user) => {
         if (user) {
+          
           dispatch(login(user));
           // return <LoadingSpinner />;
         } else {
