@@ -61,3 +61,21 @@ The **Medical Record System** is a dApp built using BlockSafe to securely store 
 
 
 
+---
+###  IPFS Pianta 
+<img width="896" alt="image (3)" src="https://github.com/user-attachments/assets/c0b9f12c-aa21-44b3-8cb7-5c3b43d202f1" />
+
+---
+
+### Appwrite
+<img width="776" alt="image (6)" src="https://github.com/user-attachments/assets/55b5d20b-b106-4b31-a330-1ecfbb5d8961" />
+
+
+### Application UI
+<img width="673" alt="image (2)" src="https://github.com/user-attachments/assets/00935a1c-0709-4753-9982-1663b74740b8" />
+
+<img width="658" alt="image (4)" src="https://github.com/user-attachments/assets/4e8ef830-d08a-479e-bffa-87347658fd60" />
+
+<img width="728" alt="image (5)" src="https://github.com/user-attachments/assets/ad625858-3e65-4bab-8d41-6cb54bd418d8" />
+
+---
