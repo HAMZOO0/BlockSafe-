@@ -85,15 +85,21 @@ To start the development server, run:
 ---
 ## Screenshots
 
-### IPFS (Pinata)
-<img width="896" alt="image (3)" src="https://github.com/user-attachments/assets/6967d220-576b-4ecd-9c21-159f694f44f0" />
-
-### Appwrite
-<img width="776" alt="image (6)" src="https://github.com/user-attachments/assets/576f5e47-c407-4a77-b64e-8fcf21c3fb1e" />
-
 ### Application UI
 <img width="673" alt="image (2)" src="https://github.com/user-attachments/assets/adec158a-81e6-4165-8719-f9c2794fa261" />
 <img width="658" alt="image (4)" src="https://github.com/user-attachments/assets/88215896-32b7-477d-a8e0-63d4b88bda7a" />
 <img width="728" alt="image (5)" src="https://github.com/user-attachments/assets/0915f0b9-fec6-421e-8a16-07de57396bf0" />
 
 
+
+### IPFS (Pinata)
+<img width="896" alt="image (3)" src="https://github.com/user-attachments/assets/6967d220-576b-4ecd-9c21-159f694f44f0" />
+
+### Appwrite
+<img width="776" alt="image (6)" src="https://github.com/user-attachments/assets/576f5e47-c407-4a77-b64e-8fcf21c3fb1e" />
+
+### Ganache
+![2021-02-25-22_21_37-ganache](https://github.com/user-attachments/assets/9936231d-60a1-4a71-86a3-c440f02579bd)
+
+### Git Graph - Contributions 
+<img width="692" alt="Screenshot 2024-12-21 233041" src="https://github.com/user-attachments/assets/eba86b23-1dd0-4fb1-a367-2be16ba4c3b0" />
